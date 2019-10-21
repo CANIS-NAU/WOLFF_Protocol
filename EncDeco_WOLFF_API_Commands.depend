@@ -1,0 +1,28 @@
+# depslib dependency file v1.0
+1571543066 source:/media/All_CSE/WOLFF/EncDeco_WOLFF/EncDeco_WOLFF_API_Commands/main.c
+	<stdio.h>
+	"ApplicationMapping.h"
+	"ServiceMapping.h"
+	"EtsyDecodeClientMessage.h"
+
+1571521608 /media/All_CSE/WOLFF/EncDeco_WOLFF/EncDeco_WOLFF_API_Commands/ApplicationMapping.h
+
+1571521283 /media/All_CSE/WOLFF/EncDeco_WOLFF/EncDeco_WOLFF_API_Commands/serviceMapping.h
+	"etsy_service_mapping.h"
+
+1571536330 /media/All_CSE/WOLFF/EncDeco_WOLFF/EncDeco_WOLFF_API_Commands/etsy_service_mapping.h
+
+1571542735 /media/All_CSE/WOLFF/EncDeco_WOLFF/EncDeco_WOLFF_API_Commands/etsy.h
+	"ApplicationMapping.h"
+	"etsy_service_mapping.h"
+	<stdbool.h>
+
+1571521608 source:/media/All_CSE/WOLFF/EncDeco_WOLFF/EncDeco_WOLFF_API_Commands/ApplicationMapping.h
+
+1571536090 /media/All_CSE/WOLFF/EncDeco_WOLFF/EncDeco_WOLFF_API_Commands/ServiceMapping.h
+	"etsy.h"
+
+1571543132 /media/All_CSE/WOLFF/EncDeco_WOLFF/EncDeco_WOLFF_API_Commands/EtsyDecodeClientMessage.h
+	"ApplicationMapping.h"
+	"etsy_service_mapping.h"
+
