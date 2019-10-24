@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <stdlib.h>
 #include "ApplicationMapping.h"
 #include "ServiceMapping.h"
 #include "EtsyDecodeClientMessage.h"
