@@ -76,7 +76,7 @@ void DecodeEtsyClientMessage(char* encodedPayLoad,int payLoadLength)
                     }
                     else
                     {
-                        printf("Invalid Description\n\n");
+                        printf("Description: Invalid Description\n\n");
                     }
 
                     tempPtr++; // tempPtr pointing to index 4

@@ -26,3 +26,25 @@
 	"ApplicationMapping.h"
 	"etsy_service_mapping.h"
 
+1571960293 source:/media/All_CSE/WOLFF_For_GitHub/WOLFF_Protocol/main.c
+	<stdio.h>
+	"ApplicationMapping.h"
+	"ServiceMapping.h"
+	"EtsyDecodeClientMessage.h"
+
+1571521608 /media/All_CSE/WOLFF_For_GitHub/WOLFF_Protocol/ApplicationMapping.h
+
+1571609416 /media/All_CSE/WOLFF_For_GitHub/WOLFF_Protocol/ServiceMapping.h
+	"etsy.h"
+
+1571960205 /media/All_CSE/WOLFF_For_GitHub/WOLFF_Protocol/etsy.h
+	"ApplicationMapping.h"
+	"etsy_service_mapping.h"
+	<stdbool.h>
+
+1571536330 /media/All_CSE/WOLFF_For_GitHub/WOLFF_Protocol/etsy_service_mapping.h
+
+1571960346 /media/All_CSE/WOLFF_For_GitHub/WOLFF_Protocol/EtsyDecodeClientMessage.h
+	"ApplicationMapping.h"
+	"etsy_service_mapping.h"
+

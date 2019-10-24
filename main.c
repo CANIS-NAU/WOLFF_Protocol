@@ -15,7 +15,7 @@ int main()
 
     Title t = bracelet; // Defined in etsy_service_mapping.h
 
-    Description d = handmade; // Defined in etsy_service_mapping.h
+    Description d = woven; // Defined in etsy_service_mapping.h
 
     int quantity = 15;
     double price = 9.150;

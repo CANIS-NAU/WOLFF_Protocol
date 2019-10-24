@@ -86,6 +86,10 @@ int quantity,double price, WhoMade whoMade,WhenMade whenMade,unsigned long int s
         {
             app += 0b00000001;
             appId++;
+            if(appId==Invalid_Application)
+            {
+                break;
+            }
         }
 
         // setting Application id in the payload array index = 0
@@ -102,6 +106,10 @@ int quantity,double price, WhoMade whoMade,WhenMade whenMade,unsigned long int s
         {
             svc += 0b00000001;
             svcId++;
+            if(svcId==Invalid_Service)
+            {
+                break;
+            }
         }
 
         //Setting Service id in the payload array index = 1
@@ -119,6 +127,11 @@ int quantity,double price, WhoMade whoMade,WhenMade whenMade,unsigned long int s
         {
             encoded_title += 0b00000001;
             tempTitle++;
+            if(tempTitle==invalid_title)
+            {
+                break;
+            }
+
         }
 
         // Setting Code for Title field in the payLoad array index = 2
@@ -137,6 +150,10 @@ int quantity,double price, WhoMade whoMade,WhenMade whenMade,unsigned long int s
         {
             encoded_description += 0b00000001;
             tempDesc++;
+            if(tempDesc==invalid_desc)
+            {
+                break;
+            }
 
         }
 
